@@ -1,0 +1,50 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; /* Adjust spacing between videos */
+    padding: 20px; /* Adjust container padding */
+    width: 100%;
+    height: 100%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.video-container button {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Optional styling for the button hover effect */
+.video-container button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* .video-container {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    
+}
+ */
