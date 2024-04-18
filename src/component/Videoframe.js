@@ -23,7 +23,7 @@ const Videoframe = () => {
 
     
     const video1 = "https://www.youtube.com/embed/z9eWUVZKPE8?autoplay=1";
-    const websiteLink = "https://react.dev/";
+    const websiteLink = "https://grid-server-ewal.onrender.com/api/proxy-website";
 
     return (
         <div className="parent">
